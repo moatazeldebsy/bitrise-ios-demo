@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<testsuites name='BitriseDemoUITests.xctest, BitriseDemoTests.xctest' tests='3' failures='0' retries='3'>
+  <testsuite name='BitriseDemoUITests.BitriseDemoUITests' tests='1' failures='0' package='BitriseDemoUITests.xctest'>
+    <testcase classname='BitriseDemoUITests.BitriseDemoUITests' name='testExample' time='3.024'/>
+  </testsuite>
+  <testsuite name='BitriseDemoTests.BitriseDemoTests' tests='2' failures='0' package='BitriseDemoTests.xctest'>
+    <testcase classname='BitriseDemoTests.BitriseDemoTests' name='testExample' time='0.005'/>
+    <testcase classname='BitriseDemoTests.BitriseDemoTests' name='testPerformanceExample' time='0.820'/>
+  </testsuite>
+</testsuites>
