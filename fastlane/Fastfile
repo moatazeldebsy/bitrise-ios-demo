@@ -1,6 +1,5 @@
 default_platform(:ios)
 
-MY_XCODE_PROJECT_FILEPATH = File.absolute_path('../../BitriseDemo/BitriseDemo.xcodeproj')
 lane :uitests do
   
 UI.important(
@@ -34,7 +33,7 @@ override_scan_options_callback = lambda do |options|
 end
 
 multi_scan(
-  project: MY_XCODE_PROJECT_FILEPATH,
+  project: 'BitriseDemo.xcodeproj',
   scheme: 'BitriseDemo',
   try_count: 3,
   batch_count: 4,
